@@ -1,10 +1,10 @@
 /*==============================================================================
-File name: 		00-master-paper.do
-Task:			[PROJECT TITLE] - Master file
-Project:		[PROJECT]
-Version:		[SOFTWARE VERSION]
-Author:			[AUTHOR]
-Last update:	[DATE]
+File name: 		00-master-wsi-sanctions.do
+Task:			WSI Sanctions - Master file
+Project:		MEPYSO
+Version:		Stata 16.1
+Author:			Philipp Linden
+Last update:	2022-10-11
 ==============================================================================*/
 
 /*------------------------------------------------------------------------------ 
