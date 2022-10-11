@@ -8,20 +8,20 @@ Since the reforms of the Social Code Book II in 2004/05, sanctions in the minimu
 
 ### History
 
-`04-05-2021`
+`2022-10-11`
 :  Setup
 
 ---
 
 ### Directories
 
-`/01src`
+`\01src`
 :  Source materials, raw data
 
-`/02prc`
+`\02prc`
 :  Processed data and analytical scripts (in subfolders)
 
-`/03doc`
+`\03doc`
 :  Documentation and output incl. figures and tables
 
 ---
@@ -42,4 +42,4 @@ All analysis were done in Stata 16 and under Windows 11. Please follow the steps
 2. Open and read the file `master.do` in Stata from the directory `input`
     - In this file, adapt the global wdir as specified
 3. Run the file `master.do` in the `input` folder
-4. See the output directories `/doc/fig` and `doc/tab`for output
+4. See the output directories `\03doc\fig`, `03doc\tab` & `03doc\var` for output
