@@ -25,7 +25,7 @@ Notes:
 #1 Install ado files                                                         
 ------------------------------------------------------------------------------*/
 
-ssc install plotplain, all replace												// Blind and colorblind scheme for graphs
+ssc install blindschemes, all replace											// Blind and colorblind scheme for graphs
 *ssc install [ado], all replace													// [DESCRIBE]
 
 /*------------------------------------------------------------------------------
@@ -48,8 +48,12 @@ set maxvar 32767      // size of data matrix
 
 * -> Retrieve c(username) by typing disp "`c(username)'" in command line
 
-if "`c(username)'" == "INSERT c(USERNAME) here" {
-	global wdir "INSERT PATH HERE"
+*if "`c(username)'" == "INSERT c(USERNAME) here" {
+*	global wdir "INSERT PATH HERE"
+*}
+
+if "`c(username)'" == "Linden" {
+	global wdir "C:\Users\Linden\Documents\GitHub\01-research\wsi-sanctions-analysis"
 }
 
 * main folder
@@ -58,8 +62,8 @@ global main		"${wdir}"						// main analysis folder
 
 * sub-folders
 
-global rdata	"${main}//01src/rdata"			// raw data
-global pdata	"${main}//02prc/pdta"			// processed data
+global rdta		"${main}//01src/rdta"			// raw data
+global pdta		"${main}//02prc/pdta"			// processed data
 global code		"${main}//02prc/scr"			// code files
 global plot		"${main}//03doc/fig"			// figures
 global text		"${main}//03doc/tab"			// logfiles + tables
@@ -72,7 +76,8 @@ global cbook	"${main}//03doc/var"			// codebooks
 
 /// ------ Project-Do-Files *
 
-*do "[do-file]"    				// [DESCRIPTION]
+*do "01-prep-wsi-sanctions"    					// Preparation of dataset
+*do "02-analysis-wsi-sanctions"    				// Runs the analysis
 
 *==============================================================================*
 
