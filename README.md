@@ -6,7 +6,7 @@ Since the reforms of the Social Code Book II in 2004/05, sanctions in the minimu
 
 ----
 
-The paper with the DOI: 10.5771/0342-300X-2021-6-454 can be obtained [here](https://www.wsi.de/de/wsi-mitteilungen-vignettenstudie-akzeptanz-sanktionen-im-sgb-ii-36761.htm) or requested directly from the author at [Linden Research](mailto:research@linden-online.com).
+The paper by Linden, P. with the DOI: 10.5771/0342-300X-2021-6-454 can be obtained [here](https://www.wsi.de/de/wsi-mitteilungen-vignettenstudie-akzeptanz-sanktionen-im-sgb-ii-36761.htm) or requested directly from the author at [Linden Research](mailto:research@linden-online.com).
 
 ----
 
