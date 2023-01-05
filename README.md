@@ -28,6 +28,9 @@ The paper with the DOI: 10.5771/0342-300X-2021-6-454 can be obtained [here](http
 `\03doc`
 :  Documentation and output incl. figures and tables
 
+`\04pap`
+:  Scientific paper
+
 ---
 
 ### Description
