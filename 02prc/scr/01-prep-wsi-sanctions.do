@@ -1,5 +1,5 @@
 /*==============================================================================
-File name: 		00-master-wsi-sanctions.do
+File name: 		01-prep-wsi-sanctions.do
 Task:			WSI Sanctions - Preparation file
 Project:		MEPYSO
 Version:		Stata 16.1
