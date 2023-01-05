@@ -3,7 +3,7 @@
 ### Directories
 
 `/rdta`
-:  Source material, raw data
+:  Source material, raw data, available soon at: [GESIS Datenarchiv](https://www.gesis.org/institut/abteilungen/datenarchiv-fuer-sozialwissenschaften).
 
 ---
 
