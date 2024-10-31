@@ -37,7 +37,7 @@ The paper by Linden, P. with the DOI: 10.5771/0342-300X-2021-6-454 can be obtain
 
 This repository contains the code for the analysis in the paper entitled "Wieviel Geld ist angemessen? Eine Vignettenstudie zur Akzeptanz von Sanktionen im SGB II" which is published in the [WSI Mitteilungen - Ausgabe 06/2021](https://www.wsi.de/de/wsi-mitteilungen-vignettenstudie-akzeptanz-sanktionen-im-sgb-ii-36761.htm).
 
-The data for this analysis comes from a self-designed and self-programmed factorial survey with vignettes. Vignette are little case descriptions of situations or individuals, which allow to systematically vary factors under study (e.g. gender, age etc.). The factorial survey was implemented in the [YouGov panel Germany](https://yougov.de/panel/) with roughly 350.000 panelists. From here, we were able to recruit a sample of N=2.621 individuals, which are representative on the key variables gender, age, education and residence at state level. The raw data set is available after registration [here](DOI GESIS EINFÜGEN).
+The data for this analysis comes from a self-designed and self-programmed factorial survey with vignettes. Vignette are little case descriptions of situations or individuals, which allow to systematically vary factors under study (e.g. gender, age etc.). The factorial survey was implemented in the [YouGov panel Germany](https://yougov.de/panel/) with roughly 350.000 panelists. From here, we were able to recruit a sample of N=2.621 individuals, which are representative on the key variables gender, age, education and residence at state level. The raw data set is available after registration [here](https://search.gesis.org/research_data/SDN-10.7802-2465?doi=10.7802/2465).
 
 ---
 
@@ -46,7 +46,7 @@ The data for this analysis comes from a self-designed and self-programmed factor
 All analysis were done in Stata 16 and under Windows 11. Please follow the steps listed below to reproduce findings:
 
 1. Fork the repository / Sync fork if necessary
-2. Get the data (available soon) at: [GESIS Datenarchiv](https://search.gesis.org/research_data/SDN-10.7802-2465?doi=10.7802/2465). You only need to register once.
+2. Get the data at: [GESIS Datenarchiv](https://search.gesis.org/research_data/SDN-10.7802-2465?doi=10.7802/2465). You only need to register once.
 2. Open and read the file `master.do` in Stata from the directory `input`
     - In this file, adapt the global wdir as specified
 3. Run the file `master.do` in the `input` folder
