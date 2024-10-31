@@ -46,7 +46,7 @@ The data for this analysis comes from a self-designed and self-programmed factor
 All analysis were done in Stata 16 and under Windows 11. Please follow the steps listed below to reproduce findings:
 
 1. Fork the repository / Sync fork if necessary
-2. Get the data at: [GESIS Datenarchiv](https://search.gesis.org/research_data/SDN-10.7802-2465?doi=10.7802/2465). You only need to register once.
+2. Get the data at [GESIS Datenarchiv](https://search.gesis.org/research_data/SDN-10.7802-2465?doi=10.7802/2465). You only need to register once.
 2. Open and read the file `master.do` in Stata from the directory `input`
     - In this file, adapt the global wdir as specified
 3. Run the file `master.do` in the `input` folder
